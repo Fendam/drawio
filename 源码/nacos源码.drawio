@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ki34XwRNvgrhJHWEyuW2" name="服务发现与订阅">
-    <mxGraphModel dx="1194" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,6 +97,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5800" y="590" as="sourcePoint" />
             <mxPoint x="6120" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGNciC8IMHd7bGpwSmEx-1" value="延时任务，默认延时6s，随失败会延长，最长60s执行" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6140" y="1038" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xGNciC8IMHd7bGpwSmEx-2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6135" y="1070" as="sourcePoint" />
+            <mxPoint x="6440" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
