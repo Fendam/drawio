@@ -108,6 +108,12 @@
             <mxPoint x="6440" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xGNciC8IMHd7bGpwSmEx-3" value="建立订阅关系" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5382" y="1473" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGNciC8IMHd7bGpwSmEx-4" value="发布ClientSubscribeServiceEvent事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="5940" y="1463" width="320" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
