@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
-  <diagram name="核心源码" id="kBt1hXOL5AL5PGD8V-su">
-    <mxGraphModel dx="2021" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
+  <diagram name="SB核心源码" id="kBt1hXOL5AL5PGD8V-su">
+    <mxGraphModel dx="2405" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,11 +196,55 @@
         <mxCell id="lBt1-9iFf_mvmzEQEJkT-62" value="&lt;font&gt;扩展点：&lt;/font&gt;&lt;div&gt;&lt;font&gt;如果我想修改beanFactory中beanDefinition信息&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="491" y="760" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YG1G7ASzq--heELXC2eZ-1" value="finishRefresh();" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="YG1G7ASzq--heELXC2eZ-1" value="finishRefresh();" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="475" y="1092" width="135" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YG1G7ASzq--heELXC2eZ-2" value="启动web容器（tomcat）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="YG1G7ASzq--heELXC2eZ-2" value="启动web容器（tomcat）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="1090" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3D2s8oHFm0gxlll5Iwx-1" value="SpringFrame源码" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="478" y="120" width="129" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wNsPk2PH83BKmsXPVLEF" name="SF源码">
+    <mxGraphModel dx="1853" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cWkD9UcI0oKom5gFiyU-1" target="4cWkD9UcI0oKom5gFiyU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-1" value="ApplicationContext context = new ClassPathXmlApplicationContext(&quot;applicationContext.xml&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="230" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4cWkD9UcI0oKom5gFiyU-2" target="4cWkD9UcI0oKom5gFiyU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-2" value="ClassPathXmlApplicationContext(String[] configLocations, boolean refresh, @Nullable ApplicationContext parent)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cWkD9UcI0oKom5gFiyU-4" target="4cWkD9UcI0oKom5gFiyU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-4" value="AbstractApplicationContext#refresh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4cWkD9UcI0oKom5gFiyU-6" target="4cWkD9UcI0oKom5gFiyU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cWkD9UcI0oKom5gFiyU-6" target="4cWkD9UcI0oKom5gFiyU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-6" value="&lt;div&gt;//容器初始化&lt;/div&gt;obtainFreshBeanFactory()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="950" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-8" value="&lt;div&gt;//刷新Ioc容器&lt;/div&gt;AbstractRefreshableApplicationContext#refreshBeanFactory()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="170" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cWkD9UcI0oKom5gFiyU-10" value="&lt;div&gt;//获取BeanFactory对象，至此完成了IOC初始化操作&lt;/div&gt;getBeanFactory()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="240" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
