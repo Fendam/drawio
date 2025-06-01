@@ -554,8 +554,8 @@
         <mxCell id="S15n2cFrtLsy1JEK8jIn-39" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//获取到切面中所有通知的执行链&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;List&amp;lt;Object&amp;gt; chain = this.advised.getInterceptorsAndDynamicInterceptionAdvice(method, targetClass);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="S15n2cFrtLsy1JEK8jIn-43">
           <mxGeometry x="32" y="10" width="552" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S15n2cFrtLsy1JEK8jIn-41" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;//通知的执行和原方法的执行都在这里&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;retVal = invocation.proceed();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="S15n2cFrtLsy1JEK8jIn-43">
-          <mxGeometry x="210" y="70" width="222" height="40" as="geometry" />
+        <mxCell id="S15n2cFrtLsy1JEK8jIn-41" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;//通知的执行和目标对象方法的执行都在这里&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;retVal = invocation.proceed();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="S15n2cFrtLsy1JEK8jIn-43">
+          <mxGeometry x="210" y="70" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
