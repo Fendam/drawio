@@ -589,8 +589,41 @@
             <mxPoint x="830" y="-240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fh1gogQFlXfUsVty8Qqp-2" target="Fh1gogQFlXfUsVty8Qqp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fh1gogQFlXfUsVty8Qqp-2" value="FrameworkServlet#initWebApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="926" y="130" width="284" height="40" as="geometry" />
+          <mxGeometry x="601" y="220" width="284" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fh1gogQFlXfUsVty8Qqp-4" target="Fh1gogQFlXfUsVty8Qqp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-4" value="FrameworkServlet#createWebApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="300" width="284" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fh1gogQFlXfUsVty8Qqp-6" target="Fh1gogQFlXfUsVty8Qqp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-6" value="FrameworkServlet#createWebApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="390" width="284" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fh1gogQFlXfUsVty8Qqp-8" target="Fh1gogQFlXfUsVty8Qqp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-8" value="FrameworkServlet#configureAndRefreshWebApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573.5" y="510" width="339" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fh1gogQFlXfUsVty8Qqp-10" target="Fh1gogQFlXfUsVty8Qqp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-10" value="&amp;nbsp;wac.refresh();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="653.5" y="590" width="179" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-12" value="AbstractApplicationContext#refresh" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="912.5" y="590" width="247.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh1gogQFlXfUsVty8Qqp-14" value="这里不就是spring初始化容器的地方吗！！������" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="900" y="670" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
